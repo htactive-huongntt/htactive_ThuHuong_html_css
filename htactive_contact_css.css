@@ -1,0 +1,421 @@
+     body {
+         font-family: 'Open Sans', sans-serif;
+         font-size: 15px;
+         line-height: 1.50;
+         color: #666666;
+         background-color: #ffffff;
+         padding: 0px;
+         margin: 0px;
+     }
+     
+     a {
+         text-decoration: none;
+     }
+     
+     .headerIcon {
+         list-style-type: none;
+         display: flex;
+         margin-top: 0px;
+     }
+     
+     .fa {
+         padding-top: 12px;
+     }
+     
+     .header-hero {
+         float: left;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         padding-top: 25px;
+     }
+     
+     .logospace {
+         height: auto;
+         float: left;
+     }
+     
+     .headerAll div {
+         margin-top: -4px;
+     }
+     
+     #logored {
+         width: 200px;
+     }
+     
+     .menu li a {
+         color: grey;
+     }
+     
+     .menu {
+         display: flex;
+         flex-direction: row;
+         text-transform: uppercase;
+         font-weight: 700;
+         padding: 12px 20px 12px 19px;
+         white-space: pre-wrap;
+         list-style-type: none;
+     }
+     
+     .map {
+         width: 100%;
+     }
+     
+     .headerIcon li a {
+         display: inline-block;
+         border-right: 1px solid;
+         width: 30px;
+         height: 40px;
+         padding-left: 14px;
+         color: grey;
+     }
+     
+     .header-hero .logospace img {
+         float: right;
+     }
+     
+     .headerAll {
+         display: flex;
+         justify-content: space-around;
+         background-color: #ddd;
+         height: 40px;
+         position: relative;
+     }
+     
+     .headerAll div:hover .dropdown {
+         display: block;
+     }
+     
+     .headerAll div:hover .dropdown {
+         display: block;
+     }
+     
+     .dropdown {
+         position: absolute;
+         background-color: #f2f2f2;
+         margin-top: 0px;
+         overflow: hidden;
+         display: none;
+     }
+     
+     .dropdown button {
+         margin: 15px;
+         width: 80%;
+         border: none;
+         overflow: visible;
+         vertical-align: middle;
+         background-color: #f2f2f2;
+     }
+     
+     .dropdown button:hover {
+         color: red;
+     }
+     
+     .headerAll div p::before {
+         content: "\2742  ";
+     }
+     
+     .headerAll div p::after {
+         content: "    \21E9";
+     }
+     
+     .mapbelow {
+         /* border: 1px solid black; */
+         margin: 80px 20px 0 2px;
+         float: left;
+         width: 100%;
+     }
+     
+     .contact {
+         margin-left: 200px;
+         /* border: 1px solid black; */
+         width: 50%;
+         float: left;
+     }
+     
+     .contact h6 {
+         font-size: 15px;
+         font-weight: 700;
+         margin: 15px;
+     }
+     
+     .contact div label {
+         font-weight: 700;
+         margin: 15px;
+     }
+     
+     .contact div input {
+         font-weight: 700;
+         margin: 15px;
+         width: 700px;
+         height: 45px;
+     }
+     
+     .contact div textarea {
+         font-weight: 700;
+         margin: 15px;
+         width: 700px;
+         height: 90px;
+     }
+     
+     .contact div button {
+         font-weight: 700;
+         margin: 15px;
+         width: 15%;
+         height: 4%;
+         background-color: rgb(228, 40, 40);
+         color: white;
+     }
+     
+     .htactive {
+         margin-left: 20px;
+         border-left: 1px solid grey;
+         width: 30%;
+         float: left;
+         padding-left: 50px;
+     }
+     
+     .slmini {
+         /* border: 1px solid black; */
+         margin: 80px 20px 0 2px;
+         float: left;
+         width: 100%;
+         background-color: #f1f1f1;
+     }
+     
+     .footerIcon {
+         float: left;
+         margin-left: 20%;
+         padding-top: 18px;
+     }
+     
+     .footer_slogan {
+         float: left;
+         margin-left: 5%;
+         width: 20%;
+     }
+     
+     .footer_slogan_author {
+         float: left;
+         padding-top: 80px
+     }
+     
+     .footer_slogan h5 {
+         font-size: 20px;
+     }
+     
+     .footer {
+         padding: 18px 0px 30px 230px;
+         background-color: #262626;
+         margin: 0px 20px 0 2px;
+         float: left;
+         width: 100%;
+         height: auto;
+     }
+     
+     .contact_link {
+         width: 20%;
+         float: left;
+     }
+     
+     .contact_link img {
+         height: 200px;
+         width: 350px;
+     }
+     
+     .contcat div input,
+     textarea {
+         position: relative;
+     }
+     
+     .iconAbsolute {
+         position: absolute;
+         right: 53%;
+         margin-top: 18px;
+     }
+     
+     .video {
+         width: 180px;
+         height: 180px;
+     }
+     
+     .copyright {
+         padding: 00px 0px 0px 130px;
+         border: 1px solid black;
+         background-color: black;
+         width: 100%;
+         height: 50px;
+         display: flex;
+         justify-content: space-around;
+         /* float: left; */
+     }
+     
+     .copyright div span {
+         list-style-type: none;
+         display: inline-block;
+         height: 40px;
+         border-right: 1px solid;
+         color: grey;
+     }
+     
+     .textcopy {
+         float: left;
+     }
+     
+     .itemcopy {
+         float: left;
+         padding: 0px 0px 0px 25px;
+     }
+     
+     .itemcopy span {
+         font-size: 18px;
+         padding: 5px;
+         width: 80px;
+     }
+     
+     .circle {
+         margin: 2px;
+     }
+     
+     .circle a li {
+         border-radius: 100%;
+         background: #262626;
+         border: 1px solid #3d3c3c;
+         width: 48px;
+         height: 37px;
+         display: block;
+         text-align: center;
+         line-height: 1.50;
+         font-size: 20px;
+         color: #666666;
+     }
+     
+     .link span::after {
+         content: "\21E8";
+         float: right;
+         padding-right: 30%;
+     }
+     
+     .contact_link span p::after {
+         content: "   \21E8";
+         color: red;
+     }
+     
+     .contact_link span p:hover {
+         text-decoration: underline;
+     }
+     
+     .social_circle {
+         display: flex;
+         padding-top: 4%;
+     }
+     
+     .social_circle circle {
+         background-color: #f1f1f1;
+         margin: 10px;
+         padding: 20px;
+         font-size: 30px;
+         margin: 20px 2px 0px 2px;
+     }
+     
+     .sticky {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         background-color: #f1f1f1;
+         height: 12%;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         opacity: 0.90;
+     }
+     
+     .sticky+.content {
+         padding-top: 102px;
+     }
+     
+     .fa-twitter:hover,
+     .fa-linkedin:hover,
+     .fa-skype:hover {
+         color: #2c94e9;
+         opacity: 1.0;
+     }
+     
+     .fa-google-plus:hover {
+         color: #e62309;
+     }
+     
+     .fa-youtube-play:hover {
+         color: #e42525;
+     }
+     
+     .fa-flickr:hover {
+         color: #f31e93;
+     }
+     
+     .fa-facebook:hover {
+         color: #1656aa;
+     }
+     
+     .fa-pinterest:hover {
+         color: #7a062c;
+     }
+     
+     .headerIcon li:hover {
+         background-color: #ebe3e3;
+     }
+     
+     .headerAll div p:hover {
+         background-color: #ebe3e3;
+         color: red;
+         opacity: 1.0;
+     }
+     
+     .menu li a:hover {
+         color: black;
+     }
+     
+     .circle .fa-facebook:hover {
+         background-color: #1656aa;
+         color: white;
+     }
+     
+     .circle .fa-linkedin:hover {
+         background-color: rgb(51, 134, 212);
+         color: white;
+     }
+     
+     .circle .fa-google-plus:hover {
+         background-color: #dd4834;
+         color: white;
+     }
+     
+     .circle .fa-skype:hover {
+         background-color: deepskyblue;
+         color: white;
+     }
+     
+     .circle .fa-youtube-play:hover {
+         background-color: firebrick;
+         color: white;
+     }
+     
+     .link a:hover {
+         color: white;
+     }
+     
+     .link a {
+         color: #666666;
+     }
+     
+     .itemcopy span a:hover {
+         color: red;
+         text-decoration: underline;
+     }
+     
+     .email a:hover {
+         text-decoration: underline;
+     }
+     
+     .htactive span a:hover {
+         text-decoration: underline;
+     }
